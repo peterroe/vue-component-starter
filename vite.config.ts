@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: './src/main.ts',
       formats: ['es','umd'],
-      name: 'myComponent'
+      name: 'MyVueComponent'
     },
     rollupOptions: {
       external: ['vue'],
