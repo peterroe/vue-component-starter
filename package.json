@@ -19,6 +19,11 @@
     "component",
     "vite"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "author": "peterroe",
   "license": "MIT",
   "devDependencies": {
