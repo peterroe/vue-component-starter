@@ -7,7 +7,7 @@ You can create yourself component quickly with it.
 ## Try it now!
 
 ```shell
-$ npx degit peterroe/my-vue-component
+$ npx degit peterroe/my-vue-component my-vue-component
 $ cd my-vue-component
 $ pnpm i
 ```
