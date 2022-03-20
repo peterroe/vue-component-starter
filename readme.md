@@ -12,7 +12,7 @@ You can create yourself component quickly with it.
 
 [Create repo from this template on Github](https://github.com/peterroe/my-vue-component/generate)
 
-## Clone to local
+### Clone to local
 
 ```shell
 $ npx degit peterroe/my-vue-component my-vue-component
@@ -28,7 +28,7 @@ $ git init
 
 ## Development
 
-Just run and vite <http://localhost:3000>
+Just run and visit <http://localhost:3000>
 
 ```shell
 $ pnpm dev

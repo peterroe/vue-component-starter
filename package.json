@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint \"**/*.{vue,ts,js}\"",
     "release": "np",
     "test": "vitest"
   },
@@ -29,13 +30,16 @@
   "author": "peterroe",
   "license": "MIT",
   "devDependencies": {
+    "@antfu/eslint-config": "^0.18.8",
     "@vitejs/plugin-vue": "^2.2.4",
     "@vue/test-utils": "^2.0.0-rc.17",
+    "eslint": "^8.11.0",
     "happy-dom": "^2.49.0",
     "husky": "4.3.8",
     "np": "^7.6.0",
     "prettier": "^2.6.0",
     "pretty-quick": "^3.1.3",
+    "typescript": "^4.6.2",
     "vite": "^2.8.6",
     "vitest": "^0.7.6",
     "vue": "^3.2.31"
