@@ -3,20 +3,20 @@ name: Test
 on:
   push:
     branches:
-      - main
+      - master
 
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
-    run-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         node-version: [14.x, 16.x]
-        os: [ubuntu-lastest]
+        os: [ubuntu-latest]
       fail-fast: false
 
     steps:
@@ -24,12 +24,11 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
-        with:
-          node-version: ${{ martix.node-version }}
-          registry-url: https://registry.npmjs.org/
-          cache: pnpm
 
       - run: pnpm install
 
       - name: Lint
         run: pnpm run lint
+
+      - name: Unit Test
+        run: pnpm run test
