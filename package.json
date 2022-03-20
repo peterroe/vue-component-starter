@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
     "release": "np",
-    "test": "vitest"
+    "test": "vitest",
+    "typecheck": "vue-tsc --noEmit"
   },
   "exports": {
     ".": {
@@ -44,6 +45,7 @@
     "typescript": "^4.6.2",
     "vite": "^2.8.6",
     "vitest": "^0.7.6",
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "vue-tsc": "^0.33.2"
   }
 }

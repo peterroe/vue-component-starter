@@ -14,6 +14,7 @@ specifiers:
   vite: ^2.8.6
   vitest: ^0.7.6
   vue: ^3.2.31
+  vue-tsc: ^0.33.2-patch.1
 
 devDependencies:
   '@antfu/eslint-config': 0.18.8_eslint@8.11.0+typescript@4.6.2
@@ -29,6 +30,7 @@ devDependencies:
   vite: 2.8.6
   vitest: 0.7.6_happy-dom@2.49.0
   vue: 3.2.31
+  vue-tsc: 0.33.2-patch.1_typescript@4.6.2
 
 packages:
   /@antfu/eslint-config-basic/0.18.8_eslint@8.11.0:
@@ -624,6 +626,114 @@ packages:
       vue: 3.2.31
     dev: true
 
+  /@volar/code-gen/0.33.2:
+    resolution:
+      {
+        integrity: sha512-PByxCupmCcMZwIL6KIkKzxGV6edxrckYnxQ6lMx9XC1wqBgtHPAHtLF+mAeqBxLRetMbhIb3lIswQEy+T+OmLg==,
+      }
+    dependencies:
+      '@volar/shared': 0.33.2
+      '@volar/source-map': 0.33.2
+    dev: true
+
+  /@volar/pug-language-service/0.33.2:
+    resolution:
+      {
+        integrity: sha512-Kv8pPsI+y2cyKyZEETdtmmNBT+Yu5+SqDxAjs5VvNhQ+R6Sjo1rr45h3ey+XqlE9ABSXIMECGefsabOAI1h0bA==,
+      }
+    dependencies:
+      '@volar/code-gen': 0.33.2
+      '@volar/shared': 0.33.2
+      '@volar/source-map': 0.33.2
+      '@volar/transforms': 0.33.2
+      pug-lexer: 5.0.1
+      pug-parser: 6.0.0
+      vscode-languageserver-textdocument: 1.0.4
+      vscode-languageserver-types: 3.17.0-next.9
+    dev: true
+
+  /@volar/shared/0.33.2:
+    resolution:
+      {
+        integrity: sha512-WTJItfRhLGwHkKwUH0LnyQXNzLFmqdyA9QZEXSgVOst0MKzExhFvuxbZX7BX6VVidYiekoKLZ6GooslSjxzVIA==,
+      }
+    dependencies:
+      upath: 2.0.1
+      vscode-html-languageservice: 4.2.4
+      vscode-jsonrpc: 8.0.0-next.7
+      vscode-uri: 3.0.3
+    dev: true
+
+  /@volar/source-map/0.33.2:
+    resolution:
+      {
+        integrity: sha512-ZT+t0wqMDl0sQ4wxmXL0yeE1VsFoAj/984XuGdb4TDTD4bKh9iwARNr/B+az4IZUJQrMeHx/YNr3yYUdwRZkKA==,
+      }
+    dependencies:
+      '@volar/shared': 0.33.2
+      vscode-languageserver-textdocument: 1.0.4
+    dev: true
+
+  /@volar/transforms/0.33.2:
+    resolution:
+      {
+        integrity: sha512-dcIGlxaZ5CmGYhc7e1huVQx9nMF5m6GVwvaP+c4XrYtHyISUl2GpIFvIlxWfqE2FUytyabUyrTkYK+Kv6Shd5g==,
+      }
+    dependencies:
+      '@volar/shared': 0.33.2
+      vscode-languageserver-types: 3.17.0-next.9
+    dev: true
+
+  /@volar/typescript-language-service/0.33.2:
+    resolution:
+      {
+        integrity: sha512-jD4XtL89let4ilDSrVI2BB0PiVbqYXmK7ARv8LrkOQTAZlpkNesOaY8BMEDsEg/L3ZBqj48EPPrwmBXNt8PWxQ==,
+      }
+    dependencies:
+      '@volar/shared': 0.33.2
+      semver: 7.3.5
+      upath: 2.0.1
+      vscode-languageserver-protocol: 3.17.0-next.16
+      vscode-languageserver-textdocument: 1.0.4
+      vscode-nls: 5.0.0
+    dev: true
+
+  /@volar/vue-code-gen/0.33.2:
+    resolution:
+      {
+        integrity: sha512-Yfvdk3u3x3TFw84/wsxS3QBfkoEB3flqTTG7CsC24C7Ou0DsB66eNaRSDJ/3P/bienFV7e7v0nH1BtqcV2/QPg==,
+      }
+    dependencies:
+      '@volar/code-gen': 0.33.2
+      '@volar/shared': 0.33.2
+      '@volar/source-map': 0.33.2
+      '@vue/compiler-core': 3.2.31
+      '@vue/compiler-dom': 3.2.31
+      '@vue/shared': 3.2.31
+      upath: 2.0.1
+    dev: true
+
+  /@volar/vue-typescript/0.33.2:
+    resolution:
+      {
+        integrity: sha512-k5Uo0Uw+KgBEzJgUp2vh8qLjTIXXJvEud5yzSbECoKzc+dhOCYfpuZQx5bSNCEaUiRdi99kvekeeWNypQgha+Q==,
+      }
+    dependencies:
+      '@volar/code-gen': 0.33.2
+      '@volar/pug-language-service': 0.33.2
+      '@volar/shared': 0.33.2
+      '@volar/source-map': 0.33.2
+      '@volar/typescript-language-service': 0.33.2
+      '@volar/vue-code-gen': 0.33.2
+      '@vue/reactivity': 3.2.31
+      upath: 2.0.1
+      vscode-css-languageservice: 5.2.0
+      vscode-html-languageservice: 4.2.4
+      vscode-json-languageservice: 4.2.1
+      vscode-languageserver-protocol: 3.17.0-next.16
+      vscode-languageserver-textdocument: 1.0.4
+    dev: true
+
   /@vue/compiler-core/3.2.31:
     resolution:
       {
@@ -757,6 +867,15 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: 8.7.0
+    dev: true
+
+  /acorn/7.4.1:
+    resolution:
+      {
+        integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==,
+      }
+    engines: { node: '>=0.4.0' }
+    hasBin: true
     dev: true
 
   /acorn/8.7.0:
@@ -1230,6 +1349,12 @@ packages:
       {
         integrity: sha512-iBMyeEHxfVnIakwOuDXpVkc54HijNgCyQB2w0VfGQThle6NXn50zU6V/u+LDhxHcDUPojn6Kpga3PTAD8W1bQw==,
       }
+    dev: true
+
+  /character-parser/2.2.0:
+    resolution: { integrity: sha1-x84o821LzZdE5f/CxfzeHHMmH8A= }
+    dependencies:
+      is-regex: 1.1.4
     dev: true
 
   /character-reference-invalid/1.1.4:
@@ -3422,6 +3547,16 @@ packages:
     hasBin: true
     dev: true
 
+  /is-expression/4.0.0:
+    resolution:
+      {
+        integrity: sha512-zMIXX63sxzG3XrkHkrAPvm/OVZVSCPNkwMHU8oTX7/U3AL78I0QXCEICXUM13BIa8TYGZ68PiTKfQz3yaTNr4A==,
+      }
+    dependencies:
+      acorn: 7.4.1
+      object-assign: 4.1.1
+    dev: true
+
   /is-extglob/2.1.1:
     resolution: { integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI= }
     engines: { node: '>=0.10.0' }
@@ -3764,6 +3899,13 @@ packages:
       eslint-visitor-keys: 3.3.0
       espree: 9.3.1
       semver: 7.3.5
+    dev: true
+
+  /jsonc-parser/3.0.0:
+    resolution:
+      {
+        integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==,
+      }
     dev: true
 
   /jsx-ast-utils/3.2.1:
@@ -5036,6 +5178,34 @@ packages:
       react-is: 16.13.1
     dev: true
 
+  /pug-error/2.0.0:
+    resolution:
+      {
+        integrity: sha512-sjiUsi9M4RAGHktC1drQfCr5C5eriu24Lfbt4s+7SykztEOwVZtbFk1RRq0tzLxcMxMYTBR+zMQaG07J/btayQ==,
+      }
+    dev: true
+
+  /pug-lexer/5.0.1:
+    resolution:
+      {
+        integrity: sha512-0I6C62+keXlZPZkOJeVam9aBLVP2EnbeDw3An+k0/QlqdwH6rv8284nko14Na7c0TtqtogfWXcRoFE4O4Ff20w==,
+      }
+    dependencies:
+      character-parser: 2.2.0
+      is-expression: 4.0.0
+      pug-error: 2.0.0
+    dev: true
+
+  /pug-parser/6.0.0:
+    resolution:
+      {
+        integrity: sha512-ukiYM/9cH6Cml+AOl5kETtM9NR3WulyVP2y4HOU45DyMim1IeP/OOiyEWRr6qk5I5klpsBnbuHpwKmTx6WURnw==,
+      }
+    dependencies:
+      pug-error: 2.0.0
+      token-stream: 1.0.0
+    dev: true
+
   /pump/3.0.0:
     resolution:
       {
@@ -5859,6 +6029,10 @@ packages:
       is-number: 7.0.0
     dev: true
 
+  /token-stream/1.0.0:
+    resolution: { integrity: sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ= }
+    dev: true
+
   /tr46/0.0.3:
     resolution: { integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o= }
     dev: true
@@ -6030,6 +6204,14 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
+  /upath/2.0.1:
+    resolution:
+      {
+        integrity: sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==,
+      }
+    engines: { node: '>=4' }
+    dev: true
+
   /update-notifier/5.1.0:
     resolution:
       {
@@ -6164,6 +6346,96 @@ packages:
       - stylus
     dev: true
 
+  /vscode-css-languageservice/5.2.0:
+    resolution:
+      {
+        integrity: sha512-FR5yDEfzbXJtYmZYrA7JWFcRSLHsJw3nv55XAmx7qdwRpFj9yy0ulKfN/NUUdiZW2jZU2fD/+Y4VJYPdafHDag==,
+      }
+    dependencies:
+      vscode-languageserver-textdocument: 1.0.4
+      vscode-languageserver-types: 3.16.0
+      vscode-nls: 5.0.0
+      vscode-uri: 3.0.3
+    dev: true
+
+  /vscode-html-languageservice/4.2.4:
+    resolution:
+      {
+        integrity: sha512-1HqvXKOq9WlZyW4HTD+0XzrjZoZ/YFrgQY2PZqktbRloHXVAUKm6+cAcvZi4YqKPVn05/CK7do+KBHfuSaEdbg==,
+      }
+    dependencies:
+      vscode-languageserver-textdocument: 1.0.4
+      vscode-languageserver-types: 3.16.0
+      vscode-nls: 5.0.0
+      vscode-uri: 3.0.3
+    dev: true
+
+  /vscode-json-languageservice/4.2.1:
+    resolution:
+      {
+        integrity: sha512-xGmv9QIWs2H8obGbWg+sIPI/3/pFgj/5OWBhNzs00BkYQ9UaB2F6JJaGB/2/YOZJ3BvLXQTC4Q7muqU25QgAhA==,
+      }
+    dependencies:
+      jsonc-parser: 3.0.0
+      vscode-languageserver-textdocument: 1.0.4
+      vscode-languageserver-types: 3.16.0
+      vscode-nls: 5.0.0
+      vscode-uri: 3.0.3
+    dev: true
+
+  /vscode-jsonrpc/8.0.0-next.7:
+    resolution:
+      {
+        integrity: sha512-JX/F31LEsims0dAlOTKFE4E+AJMiJvdRSRViifFJSqSN7EzeYyWlfuDchF7g91oRNPZOIWfibTkDf3/UMsQGzQ==,
+      }
+    engines: { node: '>=14.0.0' }
+    dev: true
+
+  /vscode-languageserver-protocol/3.17.0-next.16:
+    resolution:
+      {
+        integrity: sha512-tx4DnXw9u3N7vw+bx6n2NKp6FoxoNwiP/biH83AS30I2AnTGyLd7afSeH6Oewn2E8jvB7K15bs12sMppkKOVeQ==,
+      }
+    dependencies:
+      vscode-jsonrpc: 8.0.0-next.7
+      vscode-languageserver-types: 3.17.0-next.9
+    dev: true
+
+  /vscode-languageserver-textdocument/1.0.4:
+    resolution:
+      {
+        integrity: sha512-/xhqXP/2A2RSs+J8JNXpiiNVvvNM0oTosNVmQnunlKvq9o4mupHOBAnnzH0lwIPKazXKvAKsVp1kr+H/K4lgoQ==,
+      }
+    dev: true
+
+  /vscode-languageserver-types/3.16.0:
+    resolution:
+      {
+        integrity: sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==,
+      }
+    dev: true
+
+  /vscode-languageserver-types/3.17.0-next.9:
+    resolution:
+      {
+        integrity: sha512-9/PeDNPYduaoXRUzYpqmu4ZV9L01HGo0wH9FUt+sSHR7IXwA7xoXBfNUlv8gB9H0D2WwEmMomSy1NmhjKQyn3A==,
+      }
+    dev: true
+
+  /vscode-nls/5.0.0:
+    resolution:
+      {
+        integrity: sha512-u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA==,
+      }
+    dev: true
+
+  /vscode-uri/3.0.3:
+    resolution:
+      {
+        integrity: sha512-EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==,
+      }
+    dev: true
+
   /vue-eslint-parser/8.3.0_eslint@8.11.0:
     resolution:
       {
@@ -6183,6 +6455,20 @@ packages:
       semver: 7.3.5
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /vue-tsc/0.33.2-patch.1_typescript@4.6.2:
+    resolution:
+      {
+        integrity: sha512-Wr1b5Dt/fqJejBk9rHHCDhSbt/sU0pekUhmyupeKbAWw9eT2DTPn1od6N3dV9jdjGitqDESVRFsw6R1hSLdAQA==,
+      }
+    hasBin: true
+    peerDependencies:
+      typescript: '*'
+    dependencies:
+      '@volar/shared': 0.33.2
+      '@volar/vue-typescript': 0.33.2
+      typescript: 4.6.2
     dev: true
 
   /vue/3.2.31:
