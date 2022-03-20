@@ -6,13 +6,21 @@ You can create yourself component quickly with it.
 
 ## Try it now!
 
+> my-vue-component require Node >=14
+
+### Github Template
+
+[Create repo from this template on Github](https://github.com/peterroe/my-vue-component/generate)
+
+## Clone to local
+
 ```shell
 $ npx degit peterroe/my-vue-component my-vue-component
 $ cd my-vue-component
 $ pnpm i
 ```
 
-Init `.git`
+Don't forget initialize `.git` if you choose to clone locally:
 
 ```shell
 $ git init
