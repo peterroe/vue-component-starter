@@ -1,11 +1,10 @@
-<template>
-  <div>
-    Hello, this is {{name}}
-  </div>
-</template>
-
 <script setup lang="ts">
 import { ref } from 'vue'
 
-let name = ref<string>('MyComponent')
+const props = defineProps<{ name: string }>()
+const name = props.name || ref<string>('MyComponent')
 </script>
+
+<template>
+  <div>Hello, this is {{ name }}</div>
+</template>
