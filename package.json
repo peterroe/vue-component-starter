@@ -1,5 +1,6 @@
 {
   "name": "my-vue-component",
+  "packageManager": "pnpm@6.32.3",
   "version": "1.0.0",
   "description": "component based on vue3.x",
   "main": "index.ts",
