@@ -12,6 +12,12 @@ $ cd my-vue-component
 $ pnpm i
 ```
 
+Init `.git`
+
+```shell
+$ git init
+```
+
 ## Development
 
 Just run and vite <http://localhost:3000>
