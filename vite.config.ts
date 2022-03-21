@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import pkg from './package.json'
 
 export default defineConfig({
   plugins: [vue()],
@@ -10,7 +11,7 @@ export default defineConfig({
     lib: {
       entry: './src/main.ts',
       formats: ['es', 'umd'],
-      name: 'MyVueComponent',
+      name: pkg.name,
     },
     rollupOptions: {
       external: ['vue'],

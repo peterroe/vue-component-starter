@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-component",
+  "name": "vue-component-starter",
   "packageManager": "pnpm@6.32.3",
   "version": "1.0.0",
   "description": "component based on vue3.x",
@@ -15,8 +15,8 @@
   },
   "exports": {
     ".": {
-      "require": "./dist/my-vue-component.umd.js",
-      "import": "./dist/my-vue-component.es.js"
+      "require": "./dist/[name].umd.js",
+      "import": "./dist/[name].es.js"
     }
   },
   "keywords": [

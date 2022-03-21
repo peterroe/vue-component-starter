@@ -48,21 +48,12 @@ And you will see the generated fie in `dist` that ready to be served.
 
 > Before you publish your component, you must give your component a new name in order to prevent conflicts with other people's component names.
 
-Update `package.json`:
+Update `package.json`, and take a unique `name` for your `npm package`:
 
 ```diff
 {
 - "name": "my-vue-component"
 + "name": "your-component-name"
-
-  "exports": {
-    ".": {
--     "require": "./dist/my-vue-component.umd.js",
-+     "require": "./dist/your-component-name.umd.js"
--     "import": "./dist/my-vue-component.es.js"
-+     "import": "./dist/your-component-name.es.js"
-    }
-  },
 }
 ```
 
@@ -79,6 +70,15 @@ export default defineConfig({
     }
   }
 })
+```
+
+You better also update the registered component name in `main.ts`:
+
+```diff
+export function install(app: App) {
+- app.component('MyComponent', MyComponent)
++ app.component('yourComponentName', MyComponent)
+}
 ```
 
 Run `pnpm build` again to get the right files.
