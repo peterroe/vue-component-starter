@@ -1,4 +1,4 @@
-## My-Vue-Component
+## Vue-Component-Starter
 
 > A template to help you create vue3.x component
 
@@ -6,17 +6,17 @@ You can create yourself component quickly with it.
 
 ## Try it now!
 
-> my-vue-component require Node >=14
+> vue-component-starter require Node >=14
 
 ### Github Template
 
-[Create repo from this template on Github](https://github.com/peterroe/my-vue-component/generate)
+[Create repo from this template on Github](https://github.com/peterroe/vue-component-starter/generate)
 
 ### Clone to local
 
 ```shell
-$ npx degit peterroe/my-vue-component my-vue-component
-$ cd my-vue-component
+$ npx degit peterroe/vue-component-starter vue-component-starter
+$ cd vue-component-starter
 $ pnpm i
 ```
 
@@ -52,7 +52,7 @@ Update `package.json`, and take a unique `name` for your `npm package`:
 
 ```diff
 {
-- "name": "my-vue-component"
+- "name": "vue-component-starter"
 + "name": "your-component-name"
 }
 ```
