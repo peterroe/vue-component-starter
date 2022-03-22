@@ -37,7 +37,7 @@
     "@vitejs/plugin-vue": "2.2.4",
     "@vue/test-utils": "2.0.0-rc.17",
     "eslint": "8.11.0",
-    "happy-dom": "2.49.0",
+    "happy-dom": "2.50.0",
     "husky": "4.3.8",
     "np": "7.6.1",
     "prettier": "2.6.0",
