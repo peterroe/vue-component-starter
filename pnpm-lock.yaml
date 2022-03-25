@@ -8,7 +8,7 @@ specifiers:
   happy-dom: 2.49.0
   husky: 4.3.8
   np: 7.6.1
-  prettier: 2.6.0
+  prettier: 2.6.1
   pretty-quick: 3.1.3
   typescript: 4.6.2
   vite: 2.8.6
@@ -24,8 +24,8 @@ devDependencies:
   happy-dom: 2.49.0
   husky: 4.3.8
   np: 7.6.1
-  prettier: 2.6.0
-  pretty-quick: 3.1.3_prettier@2.6.0
+  prettier: 2.6.1
+  pretty-quick: 3.1.3_prettier@2.6.1
   typescript: 4.6.2
   vite: 2.8.6
   vitest: 0.7.6_happy-dom@2.49.0
@@ -3799,13 +3799,13 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.6.0:
-    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.3_prettier@2.6.0:
+  /pretty-quick/3.1.3_prettier@2.6.1:
     resolution: {integrity: sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -3818,7 +3818,7 @@ packages:
       ignore: 5.2.0
       mri: 1.2.0
       multimatch: 4.0.0
-      prettier: 2.6.0
+      prettier: 2.6.1
     dev: true
 
   /process-nextick-args/2.0.1:
