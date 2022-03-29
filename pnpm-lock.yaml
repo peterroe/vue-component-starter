@@ -12,7 +12,7 @@ specifiers:
   pretty-quick: 3.1.3
   typescript: 4.6.2
   vite: 2.8.6
-  vitest: 0.7.6
+  vitest: 0.7.13
   vue: 3.2.31
   vue-tsc: 0.33.9
 
@@ -28,7 +28,7 @@ devDependencies:
   pretty-quick: 3.1.3_prettier@2.6.1
   typescript: 4.6.2
   vite: 2.8.6
-  vitest: 0.7.6_happy-dom@2.49.0
+  vitest: 0.7.13_happy-dom@2.49.0
   vue: 3.2.31
   vue-tsc: 0.33.9_typescript@4.6.2
 
@@ -4653,9 +4653,9 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.7.6_happy-dom@2.49.0:
-    resolution: {integrity: sha512-fqk0cn0I2BUpzwLfeZ725JeXJ7WGwDtVcVBksQ6SdyjrBi6aex8t3w70TWgyLOXgylS7FJ8C9DRap4MMgpkqYw==}
-    engines: {node: '>=14.14.0'}
+  /vitest/0.7.13_happy-dom@2.49.0:
+    resolution: {integrity: sha512-UCHeJEOK+qCBa/e4UtkCfv0wIZ125T4Nf2R0J/46v/Wnv6bt9zGfAyKAI6siYFhvLvg20MgDIreROtVgedHFWw==}
+    engines: {node: '>=v14.19.1'}
     hasBin: true
     peerDependencies:
       '@vitest/ui': '*'
