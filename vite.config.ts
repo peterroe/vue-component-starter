@@ -19,7 +19,7 @@ export default defineConfig({
       formats: ['es', 'umd'],
       // the name expose in umd mode
       name: pkg.name,
-      fileName: (format) => `index.${format}.js`,
+      fileName: format => `index.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
