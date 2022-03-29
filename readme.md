@@ -4,6 +4,15 @@
 
 You can create yourself component quickly with it.
 
+## Feature
+
+- ⚡️ serve and build based on [vite](https://github.com/vitejs/vite)
+- ✨ format with [pretty-quick](https://github.com/azz/pretty-quick)
+- 🤙🏻 eslint support
+- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
+- 🦾 TypeScript, of course
+- 🎈 release package easily with [np](https://github.com/sindresorhus/np)
+
 ## Try it now!
 
 > vue-component-starter require Node >=14
@@ -57,22 +66,7 @@ Update `package.json`, and take a unique `name` for your `npm package`:
 }
 ```
 
-To change the name exposed in `umd` mode, update `vite.config.ts`:
-
-```diff
-export default defineConfig({
-  build: {
-    lib: {
-      entry: './src/main.ts',
-      formats: ['es','umd'],
--     name: 'myVueComponent'
-+     name: 'yourComponentName'
-    }
-  }
-})
-```
-
-You better also update the registered component name in `main.ts`:
+You better also update the registered component name in `src/index.ts`:
 
 ```diff
 export function install(app: App) {
