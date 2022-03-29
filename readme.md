@@ -15,8 +15,8 @@ You can create yourself component quickly with it.
 ### Clone to local
 
 ```shell
-$ npx degit peterroe/vue-component-starter vue-component-starter
-$ cd vue-component-starter
+$ npx degit peterroe/vue-component-starter myComponent
+$ cd myComponent
 $ pnpm i
 ```
 
