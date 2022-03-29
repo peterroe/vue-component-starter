@@ -28,7 +28,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
-      "pre-push": "pnpm lint"
+      "pre-push": "pnpm lint && pnpm test"
     }
   },
   "author": "peterroe",
