@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:demo": "vite build --config demo/vite.config.ts",
     "preview": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
     "release": "np",
