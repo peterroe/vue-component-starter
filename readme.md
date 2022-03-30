@@ -6,12 +6,13 @@ You can create yourself component quickly with it.
 
 ## Feature
 
-- ⚡️ serve and build based on [vite](https://github.com/vitejs/vite)
-- ✨ format with [pretty-quick](https://github.com/azz/pretty-quick)
-- 🤙🏻 eslint support
+- ⚡️ Serve and build based on [vite](https://github.com/vitejs/vite)
+- ✨ Format with [pretty-quick](https://github.com/azz/pretty-quick)
+- 🤙🏻 Eslint support
 - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
 - 🦾 TypeScript, of course
-- 🎈 release package easily with [np](https://github.com/sindresorhus/np)
+- 🎈 Release package easily with [np](https://github.com/sindresorhus/np)
+- 📦 Deploy demo with [gh-pages](https://github.com/tschaub/gh-pages)
 
 ## Try it now!
 
@@ -84,3 +85,24 @@ $ pnpm release
 ```
 
 For more details about publish, please check [np](https://github.com/sindresorhus/np).
+
+## Deploy demo online
+
+You can debug your components online in `demo/App.vue`, and they can be deployed directly.
+
+Just run:
+
+```shell
+$ pnpm deploy:demo
+```
+
+Then visit <https://peterroe.github.io/vue-component-starter/>
+
+Notice you have to make sure the `base` of `demo/vite.config.ts` is your github repository name:
+
+```ts
+export default defineConfig({
+  // keep the same name as your github repos
+  base: 'vue-component-starter',
+})
+```

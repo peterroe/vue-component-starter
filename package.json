@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:demo": "vite build --config demo/vite.config.ts",
-    "deploy:demo": "gh-pages -d docs",
+    "deploy:demo": "build:demo && gh-pages -d docs",
     "preview": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
     "release": "np",
