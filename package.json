@@ -30,7 +30,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
-      "pre-push": "pnpm lint && pnpm test"
+      "pre-push": "pnpm lint"
     }
   },
   "author": "peterroe",
