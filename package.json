@@ -3,7 +3,9 @@
   "packageManager": "pnpm@6.32.3",
   "version": "1.0.0",
   "description": "component based on vue3.x",
-  "main": "index.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
