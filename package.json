@@ -54,6 +54,6 @@
     "vite-plugin-dts": "1.0.4",
     "vitest": "0.8.1",
     "vue": "3.2.31",
-    "vue-tsc": "0.33.9"
+    "vue-tsc": "0.34.6"
   }
 }
