@@ -41,7 +41,7 @@
     "@antfu/eslint-config": "0.20.6",
     "@vitejs/plugin-vue": "2.2.4",
     "@vue/test-utils": "2.0.0-rc.21",
-    "eslint": "8.12.0",
+    "eslint": "8.14.0",
     "gh-pages": "3.2.3",
     "happy-dom": "2.55.0",
     "husky": "4.3.8",
