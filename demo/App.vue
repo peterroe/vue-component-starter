@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import MyComponent from '../src/MyComponent.vue'
-</script>
-
 <template>
   <div class="demo">
     <MyComponent />
