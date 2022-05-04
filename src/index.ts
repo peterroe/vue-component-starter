@@ -6,5 +6,5 @@ function install(app: App) {
 }
 
 export default {
-  install
+  install,
 }
