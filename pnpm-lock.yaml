@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': 0.23.0
-  '@vitejs/plugin-vue': 2.2.4
+  '@vitejs/plugin-vue': 2.3.2
   '@vue/test-utils': 2.0.0-rc.21
   eslint: 8.14.0
   gh-pages: 3.2.3
@@ -21,7 +21,7 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config': 0.23.0_5wsz2tb7zzudmaqxfve53vbauu
-  '@vitejs/plugin-vue': 2.2.4_vite@2.9.7+vue@3.2.32
+  '@vitejs/plugin-vue': 2.3.2_vite@2.9.7+vue@3.2.32
   '@vue/test-utils': 2.0.0-rc.21_vue@3.2.32
   eslint: 8.14.0
   gh-pages: 3.2.3
@@ -564,8 +564,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/2.2.4_vite@2.9.7+vue@3.2.32:
-    resolution: {integrity: sha512-ev9AOlp0ljCaDkFZF3JwC/pD2N4Hh+r5srl5JHM6BKg5+99jiiK0rE/XaRs3pVm1wzyKkjUy/StBSoXX5fFzcw==}
+  /@vitejs/plugin-vue/2.3.2_vite@2.9.7+vue@3.2.32:
+    resolution: {integrity: sha512-umyypfSHS4kQLdYAnJHhaASq7FRzNCdvcRoQ3uYGNk1/M4a+hXUd7ysN7BLhCrWH6uBokyCkFeUAaFDzSaaSrQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
