@@ -13,6 +13,7 @@
     "deploy:demo": "pnpm build:demo && gh-pages -d docs && rimraf docs",
     "preview": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
+    "fix": "eslint --fix \"**/*.{vue,ts,js}\"",
     "release": "np",
     "test": "vitest",
     "typecheck": "vue-tsc --noEmit"
