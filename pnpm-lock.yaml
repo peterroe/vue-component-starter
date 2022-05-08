@@ -15,7 +15,7 @@ specifiers:
   typescript: 4.6.3
   vite: 2.9.7
   vite-plugin-dts: 1.1.1
-  vitest: 0.10.5
+  vitest: 0.12.0
   vue: 3.2.32
   vue-tsc: 0.34.11
 
@@ -34,7 +34,7 @@ devDependencies:
   typescript: 4.6.3
   vite: 2.9.7
   vite-plugin-dts: 1.1.1_vite@2.9.7
-  vitest: 0.10.5_happy-dom@3.1.0
+  vitest: 0.12.0_happy-dom@3.1.0
   vue: 3.2.32
   vue-tsc: 0.34.11_typescript@4.6.3
 
@@ -5064,8 +5064,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.10.5_happy-dom@3.1.0:
-    resolution: {integrity: sha512-4qXdNbHwAd9YcsztJoVMWUQGcMATVlY9Xd95I3KQ2JJwDLTL97f/jgfGRotqptvNxdlmme5TBY0Gv+l6+JSYvA==}
+  /vitest/0.12.0_happy-dom@3.1.0:
+    resolution: {integrity: sha512-ITdIJJ5nl7eu2Iq4oON/wgpgRbhUR+50ShdMsUw87zByzjtJIx2vPbkz+J8Bq6eEUvyy8p7j0bU1sB/xWz05bw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
