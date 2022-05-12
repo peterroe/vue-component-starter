@@ -81,7 +81,7 @@ Run `pnpm build` again to get the right files.
 Make sure your are logged into [npm](https://www.npmjs.com/), and run:
 
 ```shell
-$ pnpm release
+$ pnpm release # or `npm publish` directly without verification
 ```
 
 For more details about publish, please check [np](https://github.com/sindresorhus/np).
