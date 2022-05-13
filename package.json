@@ -39,7 +39,7 @@
   "author": "peterroe",
   "license": "MIT",
   "devDependencies": {
-    "@antfu/eslint-config": "0.23.0",
+    "@antfu/eslint-config": "0.23.1",
     "@vitejs/plugin-vue": "2.3.3",
     "@vue/test-utils": "2.0.0-rc.21",
     "eslint": "8.15.0",
