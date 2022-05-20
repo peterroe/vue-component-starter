@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': 0.23.1
   '@vitejs/plugin-vue': 2.3.3
-  '@vue/test-utils': 2.0.0-rc.21
+  '@vue/test-utils': 2.0.0
   eslint: 8.15.0
   gh-pages: 4.0.0
   happy-dom: 4.0.1
@@ -22,7 +22,7 @@ specifiers:
 devDependencies:
   '@antfu/eslint-config': 0.23.1_c3alnx6mxv77hhhkcvisj3heci
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.34
-  '@vue/test-utils': 2.0.0-rc.21_vue@3.2.34
+  '@vue/test-utils': 2.0.0_vue@3.2.34
   eslint: 8.15.0
   gh-pages: 4.0.0
   happy-dom: 4.0.1
@@ -721,8 +721,8 @@ packages:
     resolution: {integrity: sha512-zhEeB8TrFmTXmTXmu/wcjEhgrjO4xqdDQrCdPhjX7NxfoLqoBVKguOm8qyihWNLbP+41svYY4za9mqXyqFLzNg==}
     dev: true
 
-  /@vue/test-utils/2.0.0-rc.21_vue@3.2.34:
-    resolution: {integrity: sha512-wIJR4e/jISBKVKfiod3DV32BlDsoD744WVCuCaGtaSKvhvTL9gI5vl2AYSy00V51YaM8dCOFi3zcpCON8G1WqA==}
+  /@vue/test-utils/2.0.0_vue@3.2.34:
+    resolution: {integrity: sha512-zL5kygNq7hONrO1CzaUGprEAklAX+pH8J1MPMCU3Rd2xtSYkZ+PmKU3oEDRg8VAGdL5lNJHzDgrud5amFPtirw==}
     peerDependencies:
       vue: ^3.0.1
     dependencies:
