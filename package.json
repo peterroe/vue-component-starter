@@ -41,7 +41,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.25.1",
     "@vitejs/plugin-vue": "2.3.3",
-    "@vue/test-utils": "2.0.0",
+    "@vue/test-utils": "2.0.1",
     "eslint": "8.17.0",
     "gh-pages": "4.0.0",
     "happy-dom": "4.1.0",
