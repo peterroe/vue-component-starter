@@ -44,7 +44,7 @@
     "@vue/test-utils": "2.0.1",
     "eslint": "8.18.0",
     "gh-pages": "4.0.0",
-    "happy-dom": "4.1.0",
+    "happy-dom": "5.3.1",
     "husky": "4.3.8",
     "np": "7.6.1",
     "prettier": "2.7.1",
