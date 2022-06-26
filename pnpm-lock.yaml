@@ -6,7 +6,7 @@ specifiers:
   '@vue/test-utils': 2.0.1
   eslint: 8.18.0
   gh-pages: 4.0.0
-  happy-dom: 5.3.1
+  happy-dom: 5.3.2
   husky: 4.3.8
   np: 7.6.2
   prettier: 2.7.1
@@ -25,7 +25,7 @@ devDependencies:
   '@vue/test-utils': 2.0.1_vue@3.2.37
   eslint: 8.18.0
   gh-pages: 4.0.0
-  happy-dom: 5.3.1
+  happy-dom: 5.3.2
   husky: 4.3.8
   np: 7.6.2
   prettier: 2.7.1
@@ -34,7 +34,7 @@ devDependencies:
   typescript: 4.7.4
   vite: 2.9.12
   vite-plugin-dts: 1.2.0_vite@2.9.12
-  vitest: 0.16.0_happy-dom@5.3.1
+  vitest: 0.16.0_happy-dom@5.3.2
   vue: 3.2.37
   vue-tsc: 0.38.1_typescript@4.7.4
 
@@ -2590,8 +2590,8 @@ packages:
     resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==}
     dev: true
 
-  /happy-dom/5.3.1:
-    resolution: {integrity: sha512-zVb0VUIK73lMZR4e9ntaEQSRTf8/Rrz9MlO2VQMOn68aZAC3qoMPS/81Rkfva4vMR+bKXDqkeHiw7HumvvBmag==}
+  /happy-dom/5.3.2:
+    resolution: {integrity: sha512-TVTS1wGeSi3oCi0gqBA97DvsvS5nOuB2GTSdQlvxQ/JgntDjXHbf/xj1VMXenLomGjm9Keu0IW5ExBXHhoE8zQ==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -5101,7 +5101,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.16.0_happy-dom@5.3.1:
+  /vitest/0.16.0_happy-dom@5.3.2:
     resolution: {integrity: sha512-Ntp6jrM8wf2NMtamMBLkRBBdeqHkgAH/WMh5Xryts1j2ft2D8QZQbiSVFkSl4WmEQzcPP0YM069g/Ga1vtnEtg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -5125,7 +5125,7 @@ packages:
       '@types/node': 17.0.23
       chai: 4.3.6
       debug: 4.3.4
-      happy-dom: 5.3.1
+      happy-dom: 5.3.2
       local-pkg: 0.4.1
       tinypool: 0.2.1
       tinyspy: 0.3.3
