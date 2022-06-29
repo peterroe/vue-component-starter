@@ -1,6 +1,6 @@
 {
   "name": "vue-component-starter",
-  "packageManager": "pnpm@7.0.1",
+  "packageManager": "pnpm@7.4.0",
   "version": "1.0.0",
   "description": "component based on vue3.x",
   "main": "./dist/index.umd.js",
@@ -38,20 +38,20 @@
   "author": "peterroe",
   "license": "MIT",
   "devDependencies": {
-    "@antfu/eslint-config": "0.23.0",
+    "@antfu/eslint-config": "0.25.2",
     "@vitejs/plugin-vue": "2.3.3",
-    "@vue/test-utils": "2.0.0-rc.21",
-    "eslint": "8.15.0",
+    "@vue/test-utils": "2.0.1",
+    "eslint": "8.18.0",
     "gh-pages": "4.0.0",
-    "happy-dom": "3.1.0",
+    "happy-dom": "5.3.4",
     "husky": "4.3.8",
     "np": "7.6.1",
     "rimraf": "3.0.2",
-    "typescript": "4.6.3",
-    "vite": "2.9.9",
-    "vite-plugin-dts": "1.1.1",
-    "vitest": "0.12.4",
-    "vue": "3.2.32",
-    "vue-tsc": "0.34.12"
+    "typescript": "4.7.4",
+    "vite": "2.9.13",
+    "vite-plugin-dts": "1.2.0",
+    "vitest": "0.16.0",
+    "vue": "3.2.37",
+    "vue-tsc": "0.38.2"
   }
 }
