@@ -6,5 +6,7 @@ const name = props.name || ref<string>('MyComponent')
 </script>
 
 <template>
-  <div>Hello, this is {{ name }}</div>
+  <div>
+    Hello, this is {{ name }}
+  </div>
 </template>
