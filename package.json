@@ -43,7 +43,7 @@
     "@vue/test-utils": "2.0.1",
     "eslint": "8.18.0",
     "gh-pages": "4.0.0",
-    "happy-dom": "5.3.4",
+    "happy-dom": "5.4.0",
     "husky": "4.3.8",
     "np": "7.6.1",
     "rimraf": "3.0.2",
