@@ -1,6 +1,6 @@
 {
   "name": "vue-component-starter",
-  "packageManager": "pnpm@7.5.1",
+  "packageManager": "pnpm@7.5.2",
   "version": "1.0.0",
   "description": "component based on vue3.x",
   "main": "./dist/index.umd.js",
