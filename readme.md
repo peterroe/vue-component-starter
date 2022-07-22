@@ -11,7 +11,7 @@ You can create yourself component quickly with it.
 - 🤙🏻 Eslint support
 - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
 - 🦾 TypeScript, of course
-- 🎈 Release package easily with [np](https://github.com/sindresorhus/np)
+- 🎈 Release package easily with [bumpp](https://github.com/antfu/bumpp)
 - 📦 Deploy demo with [gh-pages](https://github.com/tschaub/gh-pages)
 
 ## Try it now!
