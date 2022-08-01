@@ -12,7 +12,7 @@ specifiers:
   rimraf: 3.0.2
   typescript: 4.7.4
   vite: 3.0.4
-  vite-plugin-dts: 1.4.0
+  vite-plugin-dts: 1.4.1
   vitest: 0.20.1
   vue: 3.2.37
   vue-tsc: 0.39.3
@@ -29,7 +29,7 @@ devDependencies:
   rimraf: 3.0.2
   typescript: 4.7.4
   vite: 3.0.4
-  vite-plugin-dts: 1.4.0_vite@3.0.4
+  vite-plugin-dts: 1.4.1_vite@3.0.4
   vitest: 0.20.1_happy-dom@6.0.4
   vue: 3.2.37
   vue-tsc: 0.39.3_typescript@4.7.4
@@ -3464,8 +3464,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.4.0_vite@3.0.4:
-    resolution: {integrity: sha512-RyDCjQzVxUeDqF+Rl1hQT+t/rKmvfvo04gaGV/l3597FpeIWGKtNF1S4x509Kx1AfHOjLa1JdmjVgnSEIv+lpw==}
+  /vite-plugin-dts/1.4.1_vite@3.0.4:
+    resolution: {integrity: sha512-jo7E4ZeheD2o48oGiI3EygPbej7ZkGFHg3GVTt7Wuo6NgzThLvuzGGuduaFpnhJOGi1piDFsu6oui/wDKIIORQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.4.4'
