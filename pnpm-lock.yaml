@@ -13,7 +13,7 @@ specifiers:
   typescript: 4.8.2
   vite: 3.0.9
   vite-plugin-dts: 1.4.1
-  vitest: 0.22.1
+  vitest: 0.23.0
   vue: 3.2.38
   vue-tsc: 0.40.5
 
@@ -30,7 +30,7 @@ devDependencies:
   typescript: 4.8.2
   vite: 3.0.9
   vite-plugin-dts: 1.4.1_vite@3.0.9
-  vitest: 0.22.1_happy-dom@6.0.4
+  vitest: 0.23.0_happy-dom@6.0.4
   vue: 3.2.38
   vue-tsc: 0.40.5_typescript@4.8.2
 
@@ -3265,6 +3265,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /strip-literal/0.4.0:
+    resolution: {integrity: sha512-ql/sBDoJOybTKSIOWrrh8kgUEMjXMwRAkZTD0EwiwxQH/6tTPkZvMIEjp0CRlpi6V5FMiJyvxeRkEi1KrGISoA==}
+    dependencies:
+      acorn: 8.8.0
+    dev: true
+
   /strip-outer/1.0.1:
     resolution: {integrity: sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==}
     engines: {node: '>=0.10.0'}
@@ -3329,6 +3335,11 @@ packages:
 
   /timsort/0.3.0:
     resolution: {integrity: sha512-qsdtZH+vMoCARQtyod4imc2nIJwg9Cc7lPRrw9CzF8ZKR0khdr8+2nX80PBhET3tcyTtJDxAffGh2rXH4tyU8A==}
+    dev: true
+
+  /tinybench/2.1.4:
+    resolution: {integrity: sha512-NFWIw2Gg7EUPdeE8nL1Dc7AMVlk7sOr2PmSNKVuQrZ0YwTOFoshPQ+hcLrgnhK8dTP3FWMCJaf4N+/hXp6lKPw==}
+    engines: {node: '>=16.0.0'}
     dev: true
 
   /tinypool/0.2.4:
@@ -3529,8 +3540,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.22.1_happy-dom@6.0.4:
-    resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
+  /vitest/0.23.0_happy-dom@6.0.4:
+    resolution: {integrity: sha512-I3ctlfiXYprA2tID1qP+m6pmgmKx3HYfRe66MetGOHKCHLY7hz74ihiwIEtN7LReJgF3U5cM735iYPkn/Go1iQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3558,6 +3569,8 @@ packages:
       debug: 4.3.4
       happy-dom: 6.0.4
       local-pkg: 0.4.2
+      strip-literal: 0.4.0
+      tinybench: 2.1.4
       tinypool: 0.2.4
       tinyspy: 1.0.2
       vite: 3.0.9
