@@ -84,7 +84,7 @@ Make sure your are logged into [npm](https://www.npmjs.com/), and run:
 $ pnpm release # or `npm publish` directly without verification
 ```
 
-For more details about publish, please check [np](https://github.com/sindresorhus/np).
+For more details about publish, please check [bumpp](https://github.com/antfu/bumpp).
 
 ## Deploy demo online
 
