@@ -42,7 +42,7 @@
     "@vitejs/plugin-vue": "3.1.0",
     "@vue/test-utils": "2.1.0",
     "bumpp": "8.2.1",
-    "eslint": "8.23.1",
+    "eslint": "8.24.0",
     "gh-pages": "4.0.0",
     "happy-dom": "6.0.4",
     "husky": "4.3.8",
