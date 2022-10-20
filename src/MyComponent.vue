@@ -7,6 +7,6 @@ const name = props.name || ref<string>('MyComponent')
 
 <template>
   <div>
-    Hello, this is {{ name }}
+    Hello, this is <mark>{{ name }}</mark>
   </div>
 </template>
