@@ -10,9 +10,6 @@ export default defineConfig({
       cleanVueFileName: true,
     }),
   ],
-  test: {
-    environment: 'happy-dom',
-  },
   build: {
     lib: {
       entry: './src/index.ts',
